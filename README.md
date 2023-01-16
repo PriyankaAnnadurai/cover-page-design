@@ -28,18 +28,20 @@ Write HTML and CSS code in the file save it and run the app using python manage.
         }
          .bookpage{
              width: 400px;
-             height: 600px;
+             height: 650px;
              background-color: black;
+             background-position: center;
              margin-left: auto;
              margin-right: auto ;
-             padding: 22px;
+             padding: 5px;
              background-image: url('/static/images/dna.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+             background-size: cover;
+             background-repeat: no-repeat;
+  
          }
          .toptext{
              color:white;
-             padding-left: 5px;
+             padding-left: 10px;
              font-size: 14px;
              font-family: Arial, Helvetica, sans-serif;
              
@@ -66,15 +68,17 @@ Write HTML and CSS code in the file save it and run the app using python manage.
              color:white;
              font-family: Arial, Helvetica, sans-serif;
              display: inline;
-              font-size: 24px;
+             font-size: 24px;
+             position:relative;
+             line-height: 20px;
               
              
          }
          .sub-text {
              color:white;
              font-family: Arial, Helvetica, sans-serif;
-              display: flex;
-            
+             display: flex;
+             line-height: 5px;
             
   margin-right: 10px;
   margin-left: 10px;
@@ -83,8 +87,8 @@ Write HTML and CSS code in the file save it and run the app using python manage.
   }
   
 .footer {
-  
-  padding-top: 90px;
+  color:orange;
+  padding-top: 180px;
 }
 .image {
     color:white;
@@ -99,15 +103,15 @@ Write HTML and CSS code in the file save it and run the app using python manage.
 }
 img {
     width: 90px;
-    height: 110px;
-    margin-right: 30px;
+    height: 100px;
+    margin-right: 20px;
     vertical-align: bottom;
 }
 .edition {
     color:#e36f2f;
              font-family: Arial, Helvetica, sans-serif;
  font-size: 22px;
- line-height:50px;
+ line-height:bottom;
  
 }
 
@@ -136,6 +140,7 @@ Edition&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
         
     
 </html>                           
+                      
 ```
 ## Output:
 ![OUTPUT](./images/cover.png)
